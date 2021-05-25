@@ -1,0 +1,475 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header {
+    background-image: url(../HomeImage/head.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.Title {
+    padding-top: 3%;
+    font-size: 96px;
+    font-family: 'Special Elite', cursive;
+    margin-left: 3%;
+    padding-bottom: 10%;
+}
+
+.Title a {
+    text-decoration: none;
+    color: black;
+}
+
+.T {
+    margin-left: 5%;
+}
+
+.Naviguation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.NaviguationTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2%;
+}
+
+.NaviguationTop a {
+    position:relative;
+    top: 0px;
+    margin-right: 1%;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.NaviguationBot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.NaviguationBot a {
+    position:relative;
+    top: 0px;
+    margin-right: 5%;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.NaviguationTop a:hover {
+    position: relative;
+    top: -10px;
+    transition:500ms;
+}
+
+.NaviguationBot a:hover {
+    position: relative;
+    top: -10px;
+    transition:500ms;
+}
+
+.conjugal {
+    background-color: #F76643;
+    width: 100%;
+}
+
+.conjugal .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.conjugal .column h1 {
+    font-family: 'Special Elite', cursive;
+    color: #122C53;
+    font-size: 96px;
+    margin-top: 5%;
+}
+
+.conjugal .column p {
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    font-size: 40px;
+    white-space: pre-line;
+    margin: 0;
+    text-align: center;
+}
+
+.conjugal #conjugalplus {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.conjugal #conjugalplus .row {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.conjugal #conjugalplus .row p {
+    padding-left: 3%;
+}
+
+.conjugal #conjugalplus video {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.conjugal #conjugalplus p {
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    font-size: 40px;
+    white-space: pre-line;
+    margin: 0;
+    padding-bottom: 7%;
+}
+
+.conjugal #conjugalplus p span {
+    color: #EB00FF;
+}
+
+.conjugal .plus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    opacity: 0.5;
+}
+
+.conjugal .plus:hover {
+    opacity: 1;
+    transition: 900ms;
+}
+
+.conjugal .plus input {
+    content: "Voir plus";
+    width: 100%;
+    background-color: #F76643;
+    border-style: none;
+    color: #122C53;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 50px;
+    text-align: right;
+}
+
+.question {
+    background-color: #122C53;
+    width: 100%;
+}
+
+.question .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.question .column h1 {
+    font-family: 'Special Elite', cursive;
+    color: #F76643;
+    font-size: 96px;
+    margin-top: 5%;
+}
+
+.question .column .row {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.question .column .row .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question .row .column img {
+    padding: 3%;
+}
+
+.question .row p {
+    text-align: center;
+}
+
+.question .column p {
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    font-size: 40px;
+    white-space: pre-line;
+    margin: 0;
+    text-align: center;
+}
+
+.row1 {
+    padding-bottom: 0;
+}
+
+.question #questionplus {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.question #questionplus .row {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 7%;
+}
+
+.question #questionplus p {
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    font-size: 40px;
+    white-space: pre-line;
+    margin: 0;
+}
+
+.question .plus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    opacity: 0.5;
+}
+
+.question .plus:hover {
+    opacity: 1;
+    transition: 900ms;
+}
+
+.question .plus input {
+    content: "Voir plus";
+    width: 100%;
+    background-color: #122C53;
+    border-style: none;
+    color: #F76643;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 50px;
+    text-align: right;
+}
+
+.footer {
+    width: 100%;
+    background-image: url(../HomeImage/foot.png);
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 60px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.contact {
+    padding-top: 5%; 
+    padding-bottom: 3%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 50px;
+}
+
+.email span {
+    text-decoration: underline;
+}
+
+.mentions {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 3%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo .lien {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo .lien a {
+    padding-left: 3%;
+}
+
+.logo .lien a img {
+    padding-left: 3%;
+    width: 70%;
+}
+
+.air2rien {
+    text-align: right;
+}
+
+.air2rien img {
+    width: 50%;
+}
+
+.fiche {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fiche #retour {
+    text-decoration: none;
+    font-size: 64px;
+    color: #122C53;
+    font-family: 'Special Elite', cursive;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.fiche img {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#retour:hover {
+ color: #F76643;
+}
+
+.back {
+    background-color: #EC9F63;
+}
+.back h1{
+    padding-left: 3%;
+}
+
+.back .critiques {
+    width: 91%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+}
+
+.back .critiques a {
+    text-decoration: none;
+    font-size: 64px;
+    color: #122C53;
+    font-family: 'Special Elite', cursive;
+    
+    padding-left: 2%;
+}
+
+.back .critiques p {
+    white-space: pre-line;
+    color: white;
+    font-size: 40px;
+}
+
+.back .critiques p span {
+    color: #122C53;
+    font-weight: bold;
+    font-family: 'Special Elite', cursive;
+    font-size: 50px;
+}
+
+.photos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+.photos a {
+    font-size: 50px;
+    font-family: 'Special Elite', cursive;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.text {
+    width: 80%;
+    background-color: #F76643;
+    border-bottom: solid 5px #122C53;
+    border-right: solid 5px #122C53;
+    margin-right: auto;
+    margin-left: auto;
+  
+  }
+  
+  .text h1 {
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 0;
+    color: #122C53;
+    font-family: 'Special Elite', cursive;
+  }
+  
+  .text p {
+    white-space: pre-line;
+    text-align: center;
+    padding-bottom: 3%;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+  }
+
+*   {
+  box-sizing: border-box;
+}
+
+.body {
+    background: #F76643;
+}
+
+.body > ul {
+    position: absolute;
+    top: 50%;
+    width: 800px;
+    height: 200px; 
+    left: 35%;
+    margin-left: -400px;
+    margin-top: -130px;
+}
+
+ul > li {
+    width: 50%;
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    height: 200px; 
+    opacity: 0;
+    padding-top: 40px;
+    text-align: center;
+    transition: 1s opacity; 
+}
+
+.active {
+    opacity: 1;
+}
