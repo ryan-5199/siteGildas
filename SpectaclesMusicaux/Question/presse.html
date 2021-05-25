@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;
+    1,900&display=swap" rel="stylesheet">
+    <title>Photos de presse du spectacle Question de poit de vue</title>
+</head>
+<body class="body">
+    <h1><a href="../index.html">Retour</a></h1>
+    <ul id="c">
+        <li><img src="../image/p1.png" width="90%"></li>
+        <li><img src="../image/p2.png" width="90%"></li>
+        <li><img src="../image/p3.png" width="90%"></li>
+        <li><img src="../image/p4.png" width="90%"></li>
+        <li><img src="../image/p5.png" width="90%"></li>
+        <li><img src="../image/p6.png" width="90%"></li>
+        <li><img src="../image/p7.png" width="90%"></li>
+        <li><img src="../image/p8.png" width="90%"></li>
+        <li><img src="../image/p9.png" width="90%"></li>
+        <li><img src="../image/p10.png" width="90%"></li>
+        <li><img src="../image/p11.png" width="90%"></li>
+        <li><img src="../image/p12.png" width="90%"></li>
+        <li><img src="../image/p13.png" width="90%"></li>
+        <li><img src="../image/p14.png" width="90%"></li>
+        <li><img src="../image/p15.png" width="90%"></li>
+        <li><img src="../image/p16.png" width="90%"></li>
+        <li><img src="../image/p17.png" width="90%"></li>
+        <li><img src="../image/p18.png" width="90%"></li>
+        <li><img src="../image/p19.png" width="90%"></li>
+        <li><img src="../image/p20.png" width="90%"></li>
+        <li><img src="../image/p21.png" width="90%"></li>
+        <li><img src="../image/p22.png" width="90%"></li>
+        <li><img src="../image/p23.png" width="90%"></li>
+        <li><img src="../image/p24.png" width="90%"></li>
+        <li><img src="../image/p25.png" width="90%"></li>
+    </ul>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script> 
+        var timer = 4000;
+
+        var i = 0;
+        var max = $('#c > li').length;
+        
+            $("#c > li").eq(i).addClass('active').css('left','0');
+            $("#c > li").eq(i + 1).addClass('active').css('left','50%');
+            $("#c > li").eq(i + 2).addClass('active').css('left','100%');
+        
+
+            setInterval(function(){ 
+
+                $("#c > li").removeClass('active');
+
+                $("#c > li").eq(i).css('transition-delay','0.25s');
+                $("#c > li").eq(i + 1).css('transition-delay','0.5s');
+                $("#c > li").eq(i + 2).css('transition-delay','0.75s');
+
+                if (i < max-3) {
+                    i = i+3; 
+                }
+
+                else { 
+                    i = 0; 
+                }  
+
+                $("#c > li").eq(i).css('left','0').addClass('active').css('transition-delay','1.25s');
+                $("#c > li").eq(i + 1).css('left','50%').addClass('active').css('transition-delay','1.5s');
+                $("#c > li").eq(i + 2).css('left','100%').addClass('active').css('transition-delay','1.75s');
+            
+            }, timer);
+ 
+    </script>
+</body>
+
+</html>
