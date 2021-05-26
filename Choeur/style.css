@@ -88,10 +88,10 @@ body {
     margin-left: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .container h1 {
+    text-align: center;
     font-family: 'Special Elite', cursive;
     color: #122C53;
     font-size: 90px;
@@ -109,13 +109,30 @@ body {
 .container .row {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    padding-bottom: 10%;
 }
 
 .container .row p {
     padding-left: 3%;
     text-align: left;
+}
+
+.container .photospec {
+    width: 100%;
+    padding-bottom: 15%;
+    margin: 0;
+}
+
+.container .photoSpec #behind {
+    width: 70%;
+    z-index: 0;
+}
+
+.container .photoSpec #front {
+    position: absolute;
+    width: 40%;
+    right: 2%;
+    top: 220%;
 }
 
 .footer {
@@ -139,7 +156,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .email span {

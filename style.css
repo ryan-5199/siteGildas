@@ -89,26 +89,15 @@ a:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-left: 3%;
-    padding-right: 3%;
-}
-
-.container_row .profile {
-    padding-right: 3%;
+    width: 90%;
 }
 
 .container_row .presentationUn {
-    width: 55%;
+    width: 50%;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Exo 2', sans-serif;
-}
-
-.presentationDeux {
-    color: white;
-    font-size: 40px;
-    font-family: 'Exo 2', sans-serif;
-    padding: 3% 7% 5% 7%;
+    white-space: pre-line;
 }
 
 .citation {
@@ -147,7 +136,7 @@ iframe {
     background-image: url(HomeImage/foot.png);
     background-repeat: no-repeat;
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Exo 2', sans-serif;
 }
 
@@ -162,7 +151,7 @@ iframe {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .email span {
