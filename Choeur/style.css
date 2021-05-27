@@ -132,7 +132,7 @@ body {
     position: absolute;
     width: 40%;
     right: 2%;
-    top: 220%;
+    margin-top: -10%;
 }
 
 .footer {
